@@ -16,23 +16,23 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    title: 'Project 2',
-    description: '개발중...',
-    thumbnailUrl: null, // 예: 'thumb2.jpg'
-    projectUrl: null,   // 예: 'link2'
+    title: 'HunterCatcher',
+    description: '흥미진진한 슈팅게임 적들을 물리치고 새로운 무기를 획득하세요',
+    thumbnailUrl: '/thumb2.jpg', // 예: 'thumb2.jpg'
+    projectUrl: 'https://profound-creponne-5fe9ca.netlify.app/',   // 예: 'link2'
   },
   {
     id: 3,
-    title: 'Project 3',
-    description: '개발중...',
-    thumbnailUrl: null, // 예: 'thumb3.jpg'
-    projectUrl: null,   // 예: 'link3'
+    title: '나만의 고양이 만들기',
+    description: '나만의 고양이를 만들고 키우는 게임입니다.',
+    thumbnailUrl: '/thumb3.jpg', // 예: 'thumb3.jpg'
+    projectUrl: 'https://warm-taiyaki-48136b.netlify.app',   // 예: 'link3'
   },
   {
     id: 4,
     title: 'Project 4',
     description: '개발중...',
-    thumbnailUrl: null, // 예: 'thumb4.jpg'
+    thumbnailUrl: '/thumb4.jpg', // 예: 'thumb4.jpg'
     projectUrl: null,   // 예: 'link4'
   },
   {
