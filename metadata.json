@@ -1,0 +1,5 @@
+{
+  "name": "Vibecoding Project Gallery",
+  "description": "A web page to showcase the projects created by Vibecoding students. It features a gallery of project cards that link to the individual student works.",
+  "requestFramePermissions": []
+}
