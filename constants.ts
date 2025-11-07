@@ -1,118 +1,103 @@
 import { Project } from './types';
 
 // 여기에 학생들의 프로젝트 정보를 추가하거나 수정하세요.
-// 썸네일과 링크를 추가하면 자동으로 웹페이지에 반영됩니다.
-// 예시: 
-// thumbnailUrl: 'thumb1.jpg', -> thumbnailUrl: '/path/to/your/thumb1.jpg',
-// projectUrl: 'link1', -> projectUrl: 'https://your-project-link.com',
+// 이 파일이 실제 웹페이지에 반영됩니다.
 
 export const PROJECTS: Project[] = [
   {
     id: 1,
     title: '한붓그리기 퍼즐',
     description: '하나의 연속된 선으로 모든 점을 연결하는 퍼즐 게임입니다. 도전해보세요!',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '익명의 학생',
-    thumbnailUrl: '/thumb1.jpg', // Provided image uploaded for thumbnail
+    author: '김혜민',
+    thumbnailUrl: '/thumb1.jpg',
     projectUrl: 'https://famous-kitten-1bfb11.netlify.app/',
   },
   {
     id: 2,
-    title: 'Project 2',
-    description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb2.jpg'
-    projectUrl: null,   // 예: 'link2'
+    title: '슈팅 게임',
+    description: '적들을 물리치고 레벨을 올려서 무기를 업그레이드 할 수 있는 슈팅게임입니다.',
+    author: '김예건',
+    thumbnailUrl: '/thumb2.jpg',
+    projectUrl: 'https://profound-creponne-5fe9ca.netlify.app',
   },
   {
     id: 3,
-    title: 'Project 3',
-    description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb3.jpg'
-    projectUrl: null,   // 예: 'link3'
+    title: '병맛 고양이 만들기',
+    description: '귀여운 고양이를 입양하세요. 고양이가 원하는 것은 무엇일까요?',
+    author: '이지윤',
+    thumbnailUrl: '/thumb3.jpg',
+    projectUrl: 'https://warm-taiyaki-48136b.netlify.app',
   },
   {
     id: 4,
     title: 'Project 4',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb4.jpg'
-    projectUrl: null,   // 예: 'link4'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 5,
     title: 'Project 5',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb5.jpg'
-    projectUrl: null,   // 예: 'link5'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 6,
     title: 'Project 6',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb6.jpg'
-    projectUrl: null,   // 예: 'link6'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 7,
     title: 'Project 7',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb7.jpg'
-    projectUrl: null,   // 예: 'link7'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 8,
     title: 'Project 8',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb8.jpg'
-    projectUrl: null,   // 예: 'link8'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 9,
     title: 'Project 9',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb9.jpg'
-    projectUrl: null,   // 예: 'link9'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 10,
     title: 'Project 10',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb10.jpg'
-    projectUrl: null,   // 예: 'link10'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 11,
     title: 'Project 11',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb11.jpg'
-    projectUrl: null,   // 예: 'link11'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
   {
     id: 12,
     title: 'Project 12',
     description: '개발중...',
-    // FIX: Added missing 'author' property to conform to the Project type.
-    author: '개발중',
-    thumbnailUrl: null, // 예: 'thumb12.jpg'
-    projectUrl: null,   // 예: 'link12'
+    author: '개발자',
+    thumbnailUrl: null,
+    projectUrl: null,
   },
 ];

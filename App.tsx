@@ -1,9 +1,7 @@
 import React from 'react';
 import { Project } from './types';
 import ProjectCard from './components/ProjectCard';
-
-const projectDataElement = document.getElementById('project-data');
-const PROJECTS_DATA: Omit<Project, 'id'>[] = projectDataElement ? JSON.parse(projectDataElement.textContent || '[]') : [];
+import { PROJECTS } from './constants';
 
 const App: React.FC = () => {
   return (
@@ -19,8 +17,8 @@ const App: React.FC = () => {
         </header>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {PROJECTS_DATA.map((project, index) => (
-            <ProjectCard key={index} project={{ ...project, id: index + 1 }} />
+          {PROJECTS.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
         
