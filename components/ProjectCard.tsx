@@ -29,10 +29,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className="p-5 flex-grow flex flex-col">
         <h3 className="text-xl font-bold text-gray-100">{project.title}</h3>
         <p className="mt-2 text-gray-400 flex-grow">{project.description}</p>
-        <div className="mt-4">
+        <div className="mt-auto pt-4">
             <div className={`w-full text-center py-2 px-4 rounded-md font-semibold transition-colors duration-300 ${isReady ? 'bg-purple-600 hover:bg-purple-700 text-white' : 'bg-gray-600 text-gray-400 cursor-not-allowed'}`}>
             프로젝트 보기
             </div>
+            <p className="text-center text-sm text-gray-500 mt-3">
+              제작자: {project.author}
+            </p>
         </div>
       </div>
     </div>
