@@ -38,11 +38,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 5,
-    title: 'Project 5',
-    description: '개발중...',
-    author: '개발자',
-    thumbnailUrl: null,
-    projectUrl: null,
+    title: 'Infinite Dungeon',
+    description: '몬스터를 물리치고 다양한 스킬을 획득하라',
+    author: '최준혁',
+    thumbnailUrl:  '/thumb5.jpg',
+    projectUrl: 'https://dungeonmosan.netlify.app',
   },
   {
     id: 6,
