@@ -30,11 +30,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: 'Project 4',
-    description: '개발중...',
-    author: '개발자',
-    thumbnailUrl: null,
-    projectUrl: null,
+    title: '메모리 게임',
+    description: '당신의 기억력을 테스트해보세요.',
+    author: '이채빈',
+    thumbnailUrl: '/thumb4.jpg',
+    projectUrl: 'https://mosanmemory.netlify.app',
   },
   {
     id: 5,
